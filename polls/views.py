@@ -15,7 +15,7 @@ def index(request):
     return render(request, "polls/index.html", context)
 
 
-def detail(request, question_id):
+def detail(request, question_id):  # urls.pyの<int:question_id>を引数としている
     return HttpResponse("You're looking at question %s." % question_id)
 
 

@@ -57,7 +57,7 @@ ROOT_URLCONF = "mysite.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": [BASE_DIR, "templates"],  # htmlファイルの保存先を設定
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [

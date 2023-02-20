@@ -4,6 +4,7 @@ from django.urls import path
 # from .views import hellofunc  # hellofuncの場所(.views)
 from . import views
 
+app_name = "polls"
 urlpatterns = [
     path(
         "hello/", views.hellofunc
