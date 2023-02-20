@@ -1,6 +1,6 @@
-# django-tuto
+## django-tuto
 
-# Running the app
+## Running the app
 
 ```bash
 # development
