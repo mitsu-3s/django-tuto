@@ -12,4 +12,6 @@ $ python manage.py runserver
 ```bash
 # Create database files
 $ python manage.py makemigrations [application name]
+# Reflect in database
+$ python manage.py migrate
 ```
