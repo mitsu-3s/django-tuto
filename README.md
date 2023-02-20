@@ -4,12 +4,12 @@
 
 ```bash
 # development
-python manage.py runserver
+$ python manage.py runserver
 ```
 
 ## Create DB
 
 ```bash
 # Create database files
-python manage.py makemigrations polls
+$ python manage.py makemigrations [application name]
 ```
