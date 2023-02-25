@@ -2,7 +2,7 @@
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "python.formatting.provider": "black",
-    "python.formatting.blackArgs": ["--line-length=80", "--single-quote"],
+    "python.formatting.blackArgs": ["--line-length=80"],
     "[python]": {
         "editor.defaultFormatter": null
     }
