@@ -14,7 +14,7 @@
                 <a href="/polls/{{ question.id }}/">{{ question.question_text }}</a>
             </li> -->
             <li>
-                <!-- polls/urls.pyでname="detail"で指定しているため、上と同じ動作となる -->
+                <!-- polls/urls.pyでname="detail"で指定しているため、上と同じ動作となる。question.idは<int:question_id>となる -->
                 <a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a>
             </li>
             {% endfor %}
